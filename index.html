@@ -2,73 +2,33 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Xtesi Troll Page</title>
+<title>XTESI Graffiti Troll</title>
 <style>
   html, body {
     margin: 0;
     padding: 0;
     height: 100%;
     overflow: hidden;
-    font-family: 'Arial', sans-serif;
     background: black;
+    font-family: 'Arial', sans-serif;
     color: white;
   }
 
-  /* Moving galaxy background using CSS animation */
+  /* Fullscreen animated GIF background */
   body::before {
     content: "";
     position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: url('https://i.ibb.co/zm4K7Wy/galaxy.gif') center/cover no-repeat;
+    top:0; left:0; right:0; bottom:0;
+    background: url('https://media.tenor.com/some-anime-gif.gif') center/cover no-repeat;
     z-index: -1;
-    animation: move 20s linear infinite;
   }
 
-  @keyframes move {
-    0% { transform: scale(1) translate(0, 0); }
-    50% { transform: scale(1.2) translate(50px, 50px); }
-    100% { transform: scale(1) translate(0, 0); }
-  }
-
-  /* Graffiti style text */
+  /* Graffiti XTESI text */
   #xtesi {
     position: absolute;
-    top: 30%;
+    top: 25%;
     width: 100%;
     text-align: center;
-    font-size: 80px;
+    font-size: 90px;
     color: #ff00ff;
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #ff00ff,
-      0 0 20px #ff00ff,
-      0 0 40px #ff00ff,
-      0 0 80px #ff00ff;
-    cursor: pointer;
-  }
-
-  /* Click instruction text */
-  #clickText {
-    position: absolute;
-    top: 60%;
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-  }
-</style>
-</head>
-<body>
-
-<div id="xtesi">XTESI</div>
-<div id="clickText">Click anywhere 👆</div>
-
-<script>
-  document.body.onclick = function() {
-    document.body.innerHTML = "<h1 style='color:#ff0000; text-align:center; margin-top:40%; font-size:50px;'>Go touch grass 😂</h1>";
-  }
-</script>
-
-</body>
-</html>
+    font-family: 'Permanent Marker', cursive; /* Graffiti-like fo*
